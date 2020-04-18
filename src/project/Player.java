@@ -1,13 +1,10 @@
-/**
- * SYST 17796 Project Base code.
- * Students can modify and extend to implement their game.
- * Add your name as a modifier and the date!
- */
+
 package project;
 
 /**
  * A class that models each Player in the game. Players have an identifier, which should be unique.
  * @author megha,2020
+ * @modifier Sangeetha Pattara, April 2020
  */
 public abstract class Player 
 {

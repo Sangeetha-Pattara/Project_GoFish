@@ -1,8 +1,5 @@
-/**
- * SYST 17796 Project Base code.
- * Students can modify and extend to implement their game.
- * Add your name as a modifier and the date!
- */
+
+
 package project;
 
 import java.util.ArrayList;
@@ -13,6 +10,7 @@ import java.util.Collections;
  * HINT, you might want to subclass this more than once.
  * The group of cards has a maximum size attribute which is flexible for reuse.
  * @author megha,2020
+ * @modifier Sangeetha Pattara, April 2020
  */
 public class GroupOfCards 
 {
@@ -53,5 +51,10 @@ public class GroupOfCards
     public void setSize(int givenSize) {
         size = givenSize;
     }
+   
+    public void setCards(ArrayList<Card> cards) {
+        this.cards = cards;
+    }
     
+        
 }//end class
